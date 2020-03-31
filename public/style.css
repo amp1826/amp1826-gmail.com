@@ -1,0 +1,215 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+*{
+	
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Raleway', sans-serif;
+	
+
+}
+
+body{
+	
+	height : 100vh;
+	background-color: #f8f8ff;
+	
+}
+.wrapper{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	padding: 0 20px;
+
+
+
+}
+
+.contact-form{
+	max-width: 550px;
+	margin: 0 auto; 
+	background-color: rgba(248, 248, 255, 0.8);
+	padding: 30px;
+	border-radius:5px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 3px
+
+
+}
+
+.input-fields{
+	display: flex;
+	flex-direction: column;
+	margin-right: 4%;
+
+}
+
+.input-fields{
+	width:100%;
+}
+
+.input-fields .input{
+	margin: 10px 0;
+	background: transparent;
+	border: 0;
+	border-bottom: 2px solid rgba(117, 171, 188, 0.8);
+	padding: 10px;
+	
+	width: 100%;
+	color: black;
+}
+
+::-webkit-input-placeholder{
+	color:#75ABBC ;
+}
+
+::-moz-input-placeholder{
+	color:#75ABBC ;
+}
+
+::-ms-input-placeholder{
+	color:#75ABBC ;
+}
+
+.btn{
+	background: #75ABBC;
+	text-align: center;
+	padding: 15px;
+	border-radius:5px;
+	color:#fff;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+
+.blue{
+	background-color: rgba(221, 160, 221, 0.5);
+}
+
+.container{
+	font-size:2vw;
+	display: flex;
+	justify-content: center;
+}
+
+.text-container{
+	
+	display: flex;
+	flex-direction: column;
+	font-size: 2vw;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	line-height: 2.8vw;
+	padding-top: 5vw;
+	padding-bottom: 8vw;
+}
+
+.text-container-index{
+	
+	display: flex;
+	flex-direction: column;
+	font-size: 2vw;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	line-height: 2.8vw;
+	padding-top: 3.5vw;
+	padding-bottom: 8vw;
+}
+
+.text-container-menu{
+	
+	display: flex;
+	flex-direction: column;
+	font-size: 2vw;
+	padding-left: 10vw;
+	padding-right: 10vw;
+	line-height: 2.8vw;
+	padding-top: 5vw;
+	padding-bottom: 8vw;
+}
+	
+.header{
+	align-self: center;
+	font-size: 3vw;
+	font-weight: bolder;
+}
+
+
+
+.text-style{
+	
+	margin-top: 1vw;
+	margin-bottom:1vw;
+
+	
+	
+	
+
+}
+
+.list{
+	margin-top: 3vw;
+	margin-bottom:3vw;
+
+}
+
+.list-menu{
+	margin-top: 1vw;
+	margin-bottom:1vw;
+
+}
+
+.list-style{
+
+	margin-top: .5vw;
+	margin-bottom:.5vw;
+
+	
+	
+	
+
+}
+
+.list-style-faq{
+
+	margin-top: .5vw;
+	margin-bottom:.5vw;
+	padding-left: 12vw;
+	padding-right: 12vw;
+
+}
+
+
+
+.grey{
+	background-color: rgba(221, 160, 221, 0.3);
+}
+
+.googleform{
+	text-align: center;
+	padding-top: 2vw;
+}
+
+
+nav ul{
+	font-size: 1.5vw;
+	text-align: center;
+
+}
+
+.pic{
+	height: 40vw;
+	width: 40vw;
+	margin: 5vw;
+
+	 
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+}
